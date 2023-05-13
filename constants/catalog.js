@@ -7,7 +7,7 @@ const CATALOG = [
     rate: 4.7,
     },
         {
-            id: "el2",
+    id: "el2",
     img: "../img/2.png",
     title: "Apple EarPods",
     price: "2927",

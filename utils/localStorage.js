@@ -1,12 +1,12 @@
-class SessionStorageUtil {
+class LocalStorageUtil {
     constructor() {
         this.keyName = 'products';
     }
 
     getProducts() {
-        const productsSessionStorage = sessionStorage.getItem(this.keyName);
-        if (productsSessionStorage !== null) {
-            return JSON.parse(productsSessionStorage);
+        const productsLocalStorage = localStorage.getItem(this.keyName);
+        if (productsLocalStorage !== null) {
+            return JSON.parse(productsLocalStorage);
         }
         return [];
     }
@@ -19,12 +19,12 @@ class SessionStorageUtil {
         if (index === -1) {
             products.push(id);
             pushProduct = true;
-        } else {
-            products.splice(index, 1);
         }
 
-        sessionStorage.setItem(this.keyName, JSON.stringify(products));
+        localStorage.setItem(this.keyName, JSON.stringify(products));
 
         return { pushProduct, products }
     }
 }
+
+const localStorageUtil = new LocalStorageUtil();

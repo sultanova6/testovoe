@@ -54,7 +54,7 @@
 .products-element__btn {
     border: none;
     background-color: transparent;
-    margin: auto 26px 26px auto;
+    /* margin: auto 26px 26px auto; */
 
     font-family: 'Montserrat';
     font-style: normal;
