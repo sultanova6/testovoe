@@ -1,4 +1,28 @@
+:root {
+  --color-white: #fff;
+  --color-light: #EAEAEA;
+  --color-grey: #838383;
+  --color-dark: #000000;
+  --color-yellow: #FFA542;
+
+  --spacing-small: 10px;
+  --spacing-medium: 30px;
+  --spacing-large: 150px;
+
+  --box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  --border-radius: 30px;
+}
+
 body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--color-light);
+}
+
+
+
+/* body {
   background-color: #eaeaea;
   font-family: "Montserrat";
   font-style: normal;
@@ -64,7 +88,6 @@ h1 {
 
 .headphones {
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: 350px 350px 350px;
   grid-gap: 30px;
 
@@ -84,7 +107,6 @@ h1 {
 .BYZ9 {
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 30px; */
 
   width: 350px;
   height: 407px;
@@ -212,7 +234,6 @@ h1 {
   color: #000000;
 }
 
-/* footer */
 
 footer {
     position: relative;
@@ -313,4 +334,4 @@ footer {
     line-height: 18px;
 
     color: #000000;
-  }
+  } */
