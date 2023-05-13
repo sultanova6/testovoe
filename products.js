@@ -9,9 +9,12 @@ class Products {
                 <img class="products-element__img" src="${img}" />
                 <span class="products-element__title">${title}</span>
                 <span class="products-element__price">
-                    ${price.toLocaleString()} USD
+                    ${price.toLocaleString()} ₽
                 </span>
-                <span class="products-element-rate">${rate}</span>
+                <span class="products-element-rating">
+                    <img class="products-element-star" src="./img/star.svg" />
+                    <span class="products-element-rate">${rate}</span>
+                </span>
             <button class="products-element__btn">Купить</button>
             </li>
             `;

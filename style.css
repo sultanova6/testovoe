@@ -5,7 +5,7 @@
   --color-dark: #000000;
   --color-yellow: #FFA542;
 
-  --spacing-small: 10px;
+  --spacing-small: 15px;
   --spacing-medium: 30px;
   --spacing-large: 150px;
 
@@ -16,7 +16,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
+  font-style: normal;
   background-color: var(--color-light);
 }
 

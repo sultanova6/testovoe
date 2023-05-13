@@ -25,16 +25,26 @@
     width: 220px;
     height: 237px;
   
-    display: block;
     margin: 15px auto 54px auto;
 }
 
 .products-element__title {
-    /* margin-left: 22px; */
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
 }
 
 .products-element__price {
 
+}
+
+.products-element-rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.products-element-star {
+    height: 23px;
 }
 
 .products-element-rate {
@@ -42,5 +52,14 @@
 }
 
 .products-element__btn {
+    border: none;
+    background-color: transparent;
+    /* margin: auto 26px 26px auto; */
 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 21px;
+  
+    color: #000000;
 }
